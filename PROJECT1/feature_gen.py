@@ -295,6 +295,10 @@ class DiscriminativeFeatureGenerator:
         if self.scaler is not None:
             X = self.scaler.transform(X)
         return X
+    
+
+class SpectralFeatureGenerator:
+    pass
 
 # ============================================================================
 # FEATURE COUNT CALCULATOR
